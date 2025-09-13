@@ -1,5 +1,5 @@
 import './projects.css'
-import projects from '../public/assets/projectslist'
+import projects from './assets/projectslist'
 
 function Projects() {
     return(
