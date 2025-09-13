@@ -4,8 +4,8 @@
     align-items: center;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: auto;
-    gap:200px;
-    padding: 10% 10%;
+    gap:5vw;
+    padding: 10% 3%;
 
 }
 

@@ -1,7 +1,7 @@
 import { NavLink } from 'react-router-dom';
 import aboutIcon from '../public/assets/about.svg';
 import projectIcon from '../public/assets/projects.svg';
-import devIcon from '../public/assets/about.svg';
+import devIcon from '../public/assets/dev.svg';
 import contactIcon from '../public/assets/contact.svg';
 import './header.css'
 
@@ -10,10 +10,10 @@ function Header(){
         <header>
         <div className="header">
             <div className="welcomeheader">
-                <a className="headerbtn" href="/">
+                <NavLink className="headerbtn" to="/">
                     <img className="headerimg" src={aboutIcon} alt="dev"/>
                     <label className="headertext">Welcome</label>
-                </a>
+                </NavLink>
 
             </div>
             <div className="routeheader">
