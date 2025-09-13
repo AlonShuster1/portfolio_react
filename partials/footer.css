@@ -1,0 +1,11 @@
+.footerdiv{
+    display: flex;
+    justify-content: center;
+    background-color: #CBDCEB;
+    /* #6D94C5 */
+    
+}
+
+footer p {
+    margin:0;
+}

@@ -1,0 +1,69 @@
+.header{
+    display: flex;
+    position: fixed;
+    top:0;
+    width:100%;
+    justify-content: space-between; 
+    align-items: center;           
+    background-color: #E8DFCA;
+    height: 60px;  
+
+    z-index: 10;
+}
+
+
+
+
+.welcomeheader{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap:10px; 
+}
+
+.welcomeheader h2{ 
+    margin: 0;
+}
+
+.routeheader{
+    display: flex;
+    gap: 0.2vw; /* space between buttons */
+}
+
+
+
+.headerbtn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:0.2vw;
+
+
+    transition-duration: 0.4s;
+    text-decoration: none;
+    width: 8rem;
+    height:3rem;
+    font-size: 1.3rem;
+    font-weight: 600;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    color: black;
+ 
+
+}
+.headerbtn:hover{
+    background-color: rgb(240, 240, 240); 
+    color: black;
+}
+
+.headerbtn:active {
+  background-color: lightgray;
+  box-shadow: 0 5px lightgray;
+  transform: translateY(1px);
+}
+.headerimg{
+    margin: 0;
+    padding: 0;
+    width: 2rem;
+    height: 2rem;
+}
