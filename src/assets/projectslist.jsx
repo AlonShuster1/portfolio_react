@@ -1,33 +1,36 @@
 import contactIcon from './about.svg'
+import projectimg from './portfolioimg.png'
+import bookprojectimg from './bookproject.png'
 
 const projects = [
     {
         id:1,
-        title: 'book keeper',
-        photo: contactIcon,
-        link: 'null3',
-        details: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.'
+        title: 'this porfolio',
+        photo: projectimg,
+        link: 'https://github.com/AlonShuster1/portfolio_react',
+        details: 'my first react site.'
     },
     {
         id:2,
-        title: 'notes web app',
-        photo: contactIcon,
-        link: 'nul33',
-        details: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.'
+        title: 'books project',
+        photo: bookprojectimg,
+        link: 'https://github.com/AlonShuster1/bookTracker',
+        details: 'a site that keep track of book i read, and my opinion on them. was made to practice node.js + express.js and using postgreSQL to store the data.'
     },
     {
         id:3,
-        title: 'heart failure model',
-        photo: contactIcon,
-        link: 'nul33',
-        details: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.'
+        title: 'books project',
+        photo: bookprojectimg,
+        link: 'https://github.com/AlonShuster1/bookTracker',
+        details: 'a site that keep track of book i read, and my opinion on them. was made to practice node.js + express.js and using postgreSQL to store the data.'
+      
     },
     {
         id:4,
-        title: 'selenium job search bot',
-        photo: contactIcon,
-        link: 'nul33',
-        details: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.'
+        title: 'books project',
+        photo: bookprojectimg,
+        link: 'https://github.com/AlonShuster1/bookTracker',
+        details: 'a site that keep track of book i read, and my opinion on them. was made to practice node.js + express.js and using postgreSQL to store the data.'
     }
 ];
 

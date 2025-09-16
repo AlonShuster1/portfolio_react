@@ -1,0 +1,23 @@
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: grey;
+  opacity: 0.4;
+  width: 4rem;
+  height: 4rem;
+  border-radius: 50%;
+}
+
+.carousel-content{
+    padding: 0 15vw;
+}
+
+.carousel-text{
+    text-align: center;
+}
+
+.carousel-item img {
+  width: 100%;
+}
+
+
+

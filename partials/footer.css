@@ -1,11 +1,16 @@
-.footerdiv{
-    display: flex;
-    justify-content: center;
-    background-color: #CBDCEB;
+
+.footerdiv{  
+    text-align: center;
+    background-color: #E8DFCA;
+    margin-top: 5px;
+    height: 24px;
+  
+
     /* #6D94C5 */
     
 }
 
 footer p {
-    margin:0;
+    padding: 0;
+    font-size: 15px;
 }
