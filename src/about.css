@@ -15,20 +15,21 @@
     background-color: #F5EFE6;
     text-align: center;
     height: 100vh;
-    padding: 0 10%;
+    padding: 0 15vw;
 
 }
 
 
 
 .projects{
-    margin: 15px 5px;
+    margin: 5px 5px;
     background-color:#f5f5f7; 
     display: flex;
     flex-direction: column;
     align-items: center;
     gap:2rem;
     padding-bottom: 100px;
+    border-radius: 5px;
 }
 
 .projects h1{
@@ -37,13 +38,11 @@
 
 .contact{
     background-color: #F5EFE6;
-    height: 50vh;
     padding:5% 10%;
     
- 
 }
 
 .contact h1{
-    padding-bottom: 10%;
+    padding-bottom: 10px;
     text-align: center;
 }

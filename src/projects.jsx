@@ -16,12 +16,16 @@ function Projects() {
 
             <div className='projects-showcase'>
                 {projects.map((project=>
-                    
                         <div className='project-item'>
+                                <a href={project.link} 
+                                target="_blank" 
+                                className='overlay'/>
                                 <img src={project.photo} alt="image" />
                                 <h2>{project.title}</h2>
                                 <p>{project.details}</p>
                         </div>
+                    
+               
                    
                 ))}
 

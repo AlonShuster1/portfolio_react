@@ -1,36 +1,29 @@
 import contactIcon from './about.svg'
-import projectimg from './portfolioimg.png'
-import bookprojectimg from './bookproject.png'
+import projectimg from './react_portfolio_img.png'
+import SQLProjectimg from './sql_img.png'
+import MachineLearningimg from './ml_img.png'
 
 const projects = [
     {
         id:1,
-        title: 'this porfolio',
+        title: 'React Portfolio Website',
         photo: projectimg,
         link: 'https://github.com/AlonShuster1/portfolio_react',
-        details: 'my first react site.'
+        details: 'personal portfolio built with React to showcase my projects, skills, and contact information.'
     },
     {
         id:2,
-        title: 'books project',
-        photo: bookprojectimg,
-        link: 'https://github.com/AlonShuster1/bookTracker',
-        details: 'a site that keep track of book i read, and my opinion on them. was made to practice node.js + express.js and using postgreSQL to store the data.'
+        title: 'Heart Failure Prediction with ML',
+        photo: MachineLearningimg,
+        link: 'https://github.com/AlonShuster1/Heart_Failure_Prediction',
+        details: 'a project using the heart failure dataset. It covers data preprocessing, feature engineering, visualizations, and training ML models with hyperparameter tuning.'
     },
     {
         id:3,
-        title: 'books project',
-        photo: bookprojectimg,
-        link: 'https://github.com/AlonShuster1/bookTracker',
-        details: 'a site that keep track of book i read, and my opinion on them. was made to practice node.js + express.js and using postgreSQL to store the data.'
-      
-    },
-    {
-        id:4,
-        title: 'books project',
-        photo: bookprojectimg,
-        link: 'https://github.com/AlonShuster1/bookTracker',
-        details: 'a site that keep track of book i read, and my opinion on them. was made to practice node.js + express.js and using postgreSQL to store the data.'
+        title: 'SQL COVID Analysis',
+        photo: SQLProjectimg,
+        link: 'https://github.com/AlonShuster1/Corona_Virus_SQL',
+        details: 'SQL project exploring COVID-19 data. Includes queries on cases, deaths, population impact, and vaccinations using GROUP BY, joins, CTEs, window functions, and temp tables.'
     }
 ];
 

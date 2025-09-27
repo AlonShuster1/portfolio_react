@@ -19,7 +19,7 @@ function App() {
 
   return (
     <Router>
-      <div className='app'>
+      <div className='app' style={{colorScheme:'light'}}>
         <Header />
         <div className='content'>
          
