@@ -63,3 +63,12 @@
     height: 2rem;
 }
 
+#welcomebtn:hover{
+    background-color: #E8DFCA ;
+}
+
+#welcomebtn:active{
+    background-color: #E8DFCA;
+    box-shadow: 0 5px #E8DFCA;
+}
+

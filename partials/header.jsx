@@ -22,7 +22,7 @@ function Header(){
         <header>
         <div className="header">
             <div className="welcomeheader">
-                <NavLink className="headerbtn" to="/" onClick={scrollToTop}>
+                <NavLink className="headerbtn" id="welcomebtn" to="/" onClick={scrollToTop}>
                     <img className="headerimg" src={dev1Icon}  alt="dev"/>
                     <label className="headertext">Welcome</label>
                 </NavLink>
