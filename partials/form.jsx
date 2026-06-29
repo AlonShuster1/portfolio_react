@@ -17,11 +17,7 @@ function TextControlsExample() {
       </Form.Group>
 
         </div>
-         
-       <Form.Group className="mb-3" controlId="contactEmail">
-        <Form.Label>Subject</Form.Label>
-        <Form.Control type="text" name="subject" placeholder="whats this about?" />
-      </Form.Group>
+  
       
       <Form.Group className="mb-3" controlId="contactSubject">
         <Form.Label>Message</Form.Label>

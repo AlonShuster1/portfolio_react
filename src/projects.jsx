@@ -21,7 +21,8 @@ function Projects() {
                                 target="_blank" 
                                 className='overlay'/>
                                 <img src={project.photo} alt="image" />
-                                <h2>{project.title}</h2>
+                                <br></br>
+                                <h3>{project.title}</h3>
                                 <p>{project.details}</p>
                         </div>
                     
