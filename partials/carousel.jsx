@@ -2,7 +2,7 @@ import Carousel from 'react-bootstrap/Carousel';
 import projects from '../src/assets/projectslist.jsx'
 import './carousel.css'
 
-function UncontrolledExample() {
+function CarouselProjectsShowcase() {
   return (
     <section className='carousel-block'>
     <Carousel interval={null}>
@@ -30,7 +30,7 @@ function UncontrolledExample() {
   );
 }
 
-export default UncontrolledExample;
+export default CarouselProjectsShowcase;
 
 
 

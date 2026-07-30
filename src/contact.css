@@ -2,7 +2,7 @@
 .form_grid{
     position: relative;
     background-color: #F5EFE6;
-    margin: 80px 10px;
+    margin: 200px 10px 60vh 10px;
     padding: 10vw 10vw;
     display: grid;
     grid-template-columns: 1fr 1fr;

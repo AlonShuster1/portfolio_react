@@ -1,6 +1,6 @@
 
 import "./about.css"
-import UncontrolledExample from "../partials/carousel"
+import CarouselProjectsShowcase from "../partials/carousel"
 
 
 function About() {
@@ -13,10 +13,10 @@ function About() {
             <div className='briefabout'>
                 <h1>Alon Shuster</h1>
             
-                <h3>third year CS student at Sami Shamoon college</h3>
+                <h3>Computer Science graduate (GPA 92) looking for my first developer role</h3>
                 <p>
                     I enjoy solving problems through code and learning new technologies,
-                    starting from this website, and you can find more on the 'projects' tab.
+                    starting from this website, and you can find more on the 'projects' tab. <br/>
                     I'm currently looking for my first developer role to apply my skills in real projects.
                 </p>
 
@@ -27,7 +27,7 @@ function About() {
         <div className="projects" id="proj">
             <h1>Projects preview</h1>
             <div className="carousel-container">
-                <UncontrolledExample/>
+                <CarouselProjectsShowcase/>
             </div>
             
         </div>
